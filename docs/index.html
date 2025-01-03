@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ouassim Chenine, a Content Moderation Specialist with expertise in platform guidelines, ad campaigns, and digital compliance.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ouassim Chenine - Portfolio</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="container">
+                <h1 class="logo">Ouassim Chenine</h1>
+                <!-- Menu Toggle Button for Mobile -->
+                <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="hero">
+            <div class="container">
+                <h2>Content Moderation Specialist</h2>
+                <p>Ensuring safety and compliance across platforms.</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </section>
+    </header>
 
+    <!-- Main Content Section -->
+    
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-content">I'm a Content Moderation Specialist with experience in enforcing platform guidelines, ensuring compliance, and supporting ad campaigns. Fluent in Arabic, English, and French, I bring strong technical skills and a collaborative mindset.</p>
+        <address class="contact-info">
+            <p><strong>Location:</strong> Porto, Portugal</p>
+            <p><strong>Phone:</strong> <a href="tel:+351911529274">(+351) 911 529 274</a></p>
+            <p><strong>Email:</strong> <a href="mailto:ouchenine1@gmail.com">ouchenine1@gmail.com</a></p>
+        </address>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="experience-item">
+            <h3>Content Moderator</h3>
+            <p class="experience-location">Porto, Portugal | August 2024 – Present</p>
+            <ul class="experience-details">
+                <li>Ensured adherence to platform policies and standards.</li>
+                <li>Identified and reported phishing/hacking attempts to safeguard platform security.</li>
+                <li>Collaborated with international teams to uphold Digital Services Act (DSA) and Terms of Service (TOS) compliance.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Call Center Ad Support Specialist (Meta)</h3>
+            <p class="experience-location">Porto, Portugal</p>
+            <ul class="experience-details">
+                <li>Assisted clients with ad campaign setup and troubleshooting.</li>
+                <li>Resolved technical and operational issues, maintaining a high problem-resolution rate.</li>
+                <li>Provided professional guidance to advertisers in a fast-paced environment.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="section">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-item">
+            <h3>Master's Degree in Aquaculture and Marine Biology</h3>
+            <p class="education-location">University of Abdelhamid Ibn Badis, Mostaganem, Algeria | 2024</p>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+            <li>Microsoft Office Suite</li>
+            <li>Social Media Platforms</li>
+            <li>3D Modeling</li>
+            <li>Content Moderation Tools</li>
+            <li>Phishing and Security Practices</li>
+            <li>Team Collaboration</li>
+            <li>Public Speaking</li>
+            <li>Customer Service</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="section">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <ul class="certifications-list">
+            <li>International Enforcement of DSA/TOS Policies – Twitter</li>
+            <li>Security Practices Against Phishing and Hacking</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <!-- Updated form action to send data to Flask backend -->
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Ouassim Chenine. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://github.com/yourprofile" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- External Scripts -->
+    <script src="script.js" defer></script>
+</body>
+</html>
