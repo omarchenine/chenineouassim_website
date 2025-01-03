@@ -1,0 +1,303 @@
+
+/* Common Styles */
+h2.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0a3d62;
+}
+
+p.section-content {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+ul.experience-details, ul.skills-list, ul.certifications-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.experience-details li,
+ul.skills-list li,
+ul.certifications-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* About Section */
+#about .contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#about .contact-info a {
+    color: #ff7043;
+    text-decoration: none;
+}
+
+#about .contact-info a:hover {
+    color: #f4511e;
+}
+
+/* Experience Section */
+#experience .experience-item {
+    margin-bottom: 40px;
+}
+
+#experience .experience-location {
+    font-size: 16px;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+#experience .experience-details li {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Education Section */
+#education .education-item {
+    margin-bottom: 20px;
+}
+
+#education .education-location {
+    font-size: 16px;
+    color: #777;
+    font-weight: bold;
+}
+
+/* Skills Section */
+#skills .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#skills .skills-list li {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#skills .skills-list li:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+/* Certifications Section */
+#certifications .certifications-list {
+    margin-top: 10px;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact form input, 
+#contact form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#contact form input:focus, 
+#contact form textarea:focus {
+    border-color: #ff7043;
+}
+
+#contact form button {
+    background-color: #ff7043;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #f4511e;
+    transform: scale(1.05);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0a3d62;
+    color: white;
+    padding: 60px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f4511e;
+}
+
+.hero {
+    background-color: #1d3557;
+    padding: 80px 0;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff7043;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f4511e;
+    transform: scale(1.05);
+}
+
+.section {
+    padding: 60px 0;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.bg-light {
+    background-color: #f9f9f9;
+}
+
+ul.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ul.skills-list li {
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+ul.skills-list li:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff7043;
+    outline: none;
+}
+
+form button {
+    padding: 12px 24px;
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f4511e;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #0a3d62;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer ul li a:hover {
+    color: #f4511e;
+}
